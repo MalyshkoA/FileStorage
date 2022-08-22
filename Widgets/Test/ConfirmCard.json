@@ -61,7 +61,7 @@
                                  "type":"CoreCell",
                                  "properties":{
                                     "disclosure":true,
-                                    "icon":"ic_36_wallet",
+                                    "icon":"ic_36_user",
                                     "devider":"bold"
                                  },
                                  "events":[
@@ -84,7 +84,7 @@
                                  "type":"CoreCell",
                                  "properties":{
                                     "disclosure":true,
-                                    "icon":"ic_36_wallet",
+                                    "icon":"ic_36_spasibo",
                                     "devider":"bold"
                                  },
                                  "events":[
