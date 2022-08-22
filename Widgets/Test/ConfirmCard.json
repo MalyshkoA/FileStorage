@@ -61,7 +61,7 @@
                                  "type":"CoreCell",
                                  "properties":{
                                     "disclosure":true,
-                                    "icon":"document",
+                                    "icon":"ic_36_wallet",
                                     "devider":"bold"
                                  },
                                  "events":[
@@ -84,7 +84,7 @@
                                  "type":"CoreCell",
                                  "properties":{
                                     "disclosure":true,
-                                    "icon":"document",
+                                    "icon":"ic_36_wallet",
                                     "devider":"bold"
                                  },
                                  "events":[
@@ -108,7 +108,7 @@
                                  "readonly":true,
                                  "properties":{
                                     "disclosure":false,
-                                    "icon":"document",
+                                    "icon":"ic_36_wallet",
                                     "devider":"bold",
                                     "caption":"По курсу 1 = 0.9"
                                  },
