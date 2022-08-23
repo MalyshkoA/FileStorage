@@ -1,0 +1,194 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+         "card":{
+            "type":"workflow",
+            "payload":{
+               "success":true,
+               "body":{
+                  "result":"SUCCESS",
+                  "pid":"d5b0b1b9-e8a4-11ec-9075-ad509458f11e",
+                  "flow":"confirmClientIb",
+                  "state":"confirmButtonState",
+                  "output":{
+                     "screens":[
+                        {
+                           "properties":{
+                              "eventForAnalytic":"ConfirmTerms",
+                              "paramsForAnalytic":[
+                                 "currency:RUB",
+                                 "depositID:61_0",
+                                 "Savings:true"
+                              ]
+                           },
+                           "title":"Подтверждение",
+                           "description":"",
+                           "header":[
+                              {
+                                 "type":"CoreNavBar",
+                                 "title":"Подтверждение",
+                                 "events":[
+                                    {
+                                       "name":"back",
+                                       "cmd":"ROLLBACK"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "footer":[
+                              {
+                                 "type":"ConfirmationVASummaryPdfDocuments",
+                                 "properties":{
+                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                                    "operationName":"Открытие вкладасчта",
+                                    "channelName":"MOB_BANK",
+                                    "secondStateTitle":"Документы по операции"
+                                 },
+                                 "title":"Ознакомление с <a>документами</a>",
+                                 "description":"Подтверждая, вы соглашаетесь с документами",
+                                 "fields":[
+                                    {
+                                       "id":"agreement",
+                                       "value":"",
+                                       "type":"text",
+                                       "title":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>"
+                                    },
+                                    {
+                                       "id":"ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                       "title":"Договор о счёте",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                       "readonly":true,
+                                       "validators":[
+                                          
+                                       ]
+                                    }
+                                 ],
+                                 "events":[
+                                    {
+                                       "cmd":"EVENT",
+                                       "name":"next",
+                                       "type":"next",
+                                       "title":"Согласиться и подтвердить"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "widgets":[
+                              {
+                                 "type":"CoreFieldset",
+                                 "properties":{
+                                    "divider":true
+                                 },
+                                 "fields":[
+                                    {
+                                       "id":"name",
+                                       "type":"text",
+                                       "title":"Название",
+                                       "value":"Сберегательный счёт",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    },
+                                    {
+                                       "id":"currency",
+                                       "type":"text",
+                                       "title":"Валюта",
+                                       "value":"Рубль",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    },
+                                    {
+                                       "id":"rate",
+                                       "type":"text",
+                                       "title":"Ставка",
+                                       "value":"1%",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    },
+                                    {
+                                       "id":"income_withdraw",
+                                       "type":"text",
+                                       "title":"Пополнение и снятие",
+                                       "value":"В любое время без ограничений",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    },
+                                    {
+                                       "id":"prolongation",
+                                       "type":"text",
+                                       "title":"Проценты выплачиваются",
+                                       "value":"На счёт",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreFieldset",
+                                 "properties":{
+                                    "divider":true
+                                 },
+                                 "fields":[
+                                    {
+                                       "id":"content0",
+                                       "type":"text",
+                                       "title":"Периодичность выплаты процентов",
+                                       "value":"Каждый месяц",
+                                       "description":"",
+                                       "referenceId":"",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "style":"noIcon"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "references":{
+                        "ed4dae15f6f5934b7ca5894bd4c3ef2b07":{
+                           "properties":{
+                              
+                           },
+                           "items":[
+                              {
+                                 "title":"fraud",
+                                 "value":"/bh-confirmation/v3/api/fraud?uuid=baaafbc6-2e07-4538-ad6f-c856ffaf75dc&documentId=ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                 "properties":{
+                                    
+                                 }
+                              },
+                              {
+                                 "title":"document",
+                                 "value":"/bh-confirmation/v3/api/documents?uuid=baaafbc6-2e07-4538-ad6f-c856ffaf75dc&documentId=ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                 "properties":{
+                                    
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   ]
+}
