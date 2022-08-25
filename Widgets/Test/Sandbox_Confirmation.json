@@ -24,18 +24,6 @@
                            },
                            "title":"Подтверждение",
                            "description":"",
-                           "header":[
-                              {
-                                 "type":"CoreNavBar",
-                                 "title":"Подтверждение",
-                                 "events":[
-                                    {
-                                       "name":"back",
-                                       "cmd":"ROLLBACK"
-                                    }
-                                 ]
-                              }
-                           ],
                            "footer":[
                               {
                                  "type":"ConfirmationVASummaryPdfDocuments",
@@ -75,19 +63,6 @@
                                     }
                                  ]
                               },
-                              {
-                                 "type":"CoreButtons",
-                                 "fields":[
-                                    
-                                 ],
-                                 "events":[
-                                    {
-                                       "name":"next",
-                                       "type":"next",
-                                       "title":"Подтвердить"
-                                    }
-                                 ]
-                              }
                            ],
                            "widgets":[
                               {
