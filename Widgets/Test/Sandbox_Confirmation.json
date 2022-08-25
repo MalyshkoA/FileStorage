@@ -60,6 +60,51 @@
                            ],
                            "footer":[
                               {
+                                 "type":"ConfirmationSummaryPdfDocuments",
+                                 "properties":{
+                                    "pinned":true,
+                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                                    "operationName":"Открытие вкладасчта",
+                                    "channelName":"MOB_BANK",
+                                    "secondStateTitle":"Документы по операции"
+                                 },
+                                 "title":"Ознакомление с <a>документами</a>",
+                                 "description":"Подтверждая, вы соглашаетесь с документами",
+                                 "fields":[
+                                    {
+                                       "id":"agreement",
+                                       "value":"false",
+                                       "type":"checkbox",
+                                       "referenceId":"",
+                                       "title":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                                       "readonly":false,
+                                       "validators":[
+                                          {
+                                             "type":"required",
+                                             "value":"true",
+                                             "message":"Пожалуйста, подтвердите условия по операции"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "id":"ed76b89c16aab346889502246dec658e9d",
+                                       "title":"Договор о счёте",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"ed76b89c16aab346889502246dec658e9d",
+                                       "readonly":true
+                                    }
+                                 ],
+                                 "events":[
+                                    {
+                                       "cmd":"EVENT",
+                                       "name":"next",
+                                       "type":"next",
+                                       "title":"Продолжить"
+                                    }
+                                 ]
+                              },
+                              {
                                  "type":"CoreButtons",
                                  "fields":[
                                     
