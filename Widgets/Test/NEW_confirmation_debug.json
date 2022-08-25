@@ -74,21 +74,7 @@
                                        "title":"Согласиться и подтвердить"
                                     }
                                  ]
-                              },
-                              {
-                                 "type":"CoreButtons",
-                                 "fields":[
-                                    
-                                 ],
-                                 "events":[
-                                    {
-                                       "name":"next",
-                                       "type":"next",
-                                       "title":"Подтвердить"
-                                    }
-                                 ]
-                              }
-                           ],
+                              }],
                            "widgets":[
                               {
                                  "type":"CoreFieldset",
