@@ -104,6 +104,20 @@
                                     }
                                  ]
                               }
+                              //,
+                              // { 
+                              //   "type":"CoreButtons",
+                              //   "fields":[
+                              //      
+                              //   ],
+                              //   "events":[
+                              //      {
+                              //         "name":"next",
+                              //         "type":"next",
+                              //         "title":"Подтвердить"
+                              //     }
+                              //   ]
+                              //}
                            ],
                            "widgets":[
                               {
@@ -180,7 +194,7 @@
                                        "id":"content0",
                                        "type":"text",
                                        "title":"Периодичность выплаты процентов",
-                                       "value":"Каждый месяц",
+                                       "value":"Каждый месяц (1)",
                                        "description":"",
                                        "referenceId":"",
                                        "readonly":true,
