@@ -104,20 +104,6 @@
                                     }
                                  ]
                               }
-                              //,
-                              // { 
-                              //   "type":"CoreButtons",
-                              //   "fields":[
-                              //      
-                              //   ],
-                              //   "events":[
-                              //      {
-                              //         "name":"next",
-                              //         "type":"next",
-                              //         "title":"Подтвердить"
-                              //     }
-                              //   ]
-                              //}
                            ],
                            "widgets":[
                               {
