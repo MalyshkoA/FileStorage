@@ -180,7 +180,7 @@
                                        "id":"content0",
                                        "type":"text",
                                        "title":"Периодичность выплаты процентов",
-                                       "value":"Каждый месяц (1)",
+                                       "value":"Каждый месяц (2)",
                                        "description":"",
                                        "referenceId":"",
                                        "readonly":true,
