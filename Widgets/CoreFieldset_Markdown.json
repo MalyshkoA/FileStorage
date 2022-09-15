@@ -61,7 +61,7 @@
                                     "type": "text",
                                     "style": "user",
                                     "format": "markdown",
-                                    "value": "^[Белый с прозрачностью.](color:tertiary) -> ^[В цвет темы (белый/черный).](color:inverse)",
+                                    "value": "^[Белый с прозрачностью.](color:tertiary) -> ^[Реверсивный цвет](color:inverse)",
                                     "readonly": true,
                                     "title": "ФИО получателя",
                                     "validators": []
