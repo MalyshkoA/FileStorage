@@ -74,7 +74,8 @@
                                        "title":"Согласиться и подтвердить"
                                     }
                                  ]
-                              }],
+                              }
+                           ],
                            "widgets":[
                               {
                                  "type":"CoreFieldset",
@@ -169,13 +170,6 @@
                            "items":[
                               {
                                  "title":"fraud",
-                                 "value":"https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
-                                 "properties":{
-                                    
-                                 }
-                              },
-                              {
-                                 "title":"document",
                                  "value":"https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
                                  "properties":{
                                     
