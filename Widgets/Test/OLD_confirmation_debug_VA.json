@@ -126,7 +126,7 @@
                                  "type":"ConfirmationSummaryPdfDocuments",
                                  "properties":{
                                     "pinned":true,
-                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
                                     "operationName":"Открытие вкладасчта",
                                     "channelName":"MOB_BANK",
                                     "secondStateTitle":"Документы по операции"
@@ -139,7 +139,7 @@
                                        "value":"false",
                                        "type":"checkbox",
                                        "referenceId":"",
-                                       "title":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
+                                       "title":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>",
                                        "readonly":false,
                                        "validators":[
                                           {
@@ -186,14 +186,14 @@
                            "items":[
                               {
                                  "title":"fraud",
-                                 "value":"/bh-confirmation/v3/api/fraud?uuid=a1aff566-bbb3-47e9-9f9b-fb1f85347c6d&documentId=ed76b89c16aab346889502246dec658e9d",
+                                 "value":"/bh-confirmation/v3/api/fraud?uuid=5d6a8926-b4b4-40b7-a624-754f66fffb2c&documentId=ed8f8a3894f95041b183ef1ed16b232853",
                                  "properties":{
                                     
                                  }
                               },
                               {
                                  "title":"document",
-                                 "value":"/bh-confirmation/v3/api/documents?uuid=a1aff566-bbb3-47e9-9f9b-fb1f85347c6d&documentId=ed76b89c16aab346889502246dec658e9d",
+                                 "value":"/bh-confirmation/v3/api/documents?uuid=5d6a8926-b4b4-40b7-a624-754f66fffb2c&documentId=ed8f8a3894f95041b183ef1ed16b232853",
                                  "properties":{
                                     
                                  }
