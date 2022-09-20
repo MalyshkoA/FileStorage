@@ -169,14 +169,14 @@
                            "items":[
                               {
                                  "title":"fraud",
-                                 "value":"/bh-confirmation/v3/api/fraud?uuid=baaafbc6-2e07-4538-ad6f-c856ffaf75dc&documentId=ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                 "value":"https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
                                  "properties":{
                                     
                                  }
                               },
                               {
                                  "title":"document",
-                                 "value":"/bh-confirmation/v3/api/fraud?uuid=baaafbc6-2e07-4538-ad6f-c856ffaf75dc&documentId=ed4dae15f6f5934b7ca5894bd4c3ef2b07",
+                                 "value":"https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
                                  "properties":{
                                     
                                  }
