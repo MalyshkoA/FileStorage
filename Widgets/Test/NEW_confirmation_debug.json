@@ -170,7 +170,14 @@
                            "items":[
                               {
                                  "title":"fraud",
-                                 "value":"https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
+                                 "value":"/bh-confirmation/v3/api/fraud?uuid=a1aff566-bbb3-47e9-9f9b-fb1f85347c6d&documentId=ed76b89c16aab346889502246dec658e9d",
+                                 "properties":{
+                                    
+                                 }
+                              },
+                              {
+                                 "title":"document",
+                                 "value":"/bh-confirmation/v3/api/document?uuid=a1aff566-bbb3-47e9-9f9b-fb1f85347c6d&documentId=ed76b89c16aab346889502246dec658e9d",
                                  "properties":{
                                     
                                  }
