@@ -34,7 +34,7 @@
                             "description": "Ввод суммы и валюты для перевода денежки",
                             "fields": [
                                 {
-                                    "id": "amount",
+                                    "id": "amount_1",
                                     "value": "5000",
                                     "style": "noicon_with_underline",
                                     "type": "text",
@@ -54,7 +54,7 @@
                                     ]
                                 },
                                 {
-                                    "id": "currency",
+                                    "id": "currency_1",
                                     "value": "RUB",
                                     "type": "select",
                                     "referenceId": "currencies1",
@@ -75,7 +75,7 @@
                             "description": "Ввод суммы и валюты для перевода денежки",
                             "fields": [
                                 {
-                                    "id": "amount",
+                                    "id": "amount_2",
                                     "value": "5000",
                                     "style": "noicon_with_underline",
                                     "type": "text",
@@ -95,7 +95,7 @@
                                     ]
                                 },
                                 {
-                                    "id": "currency",
+                                    "id": "currency_2",
                                     "value": "RUB",
                                     "type": "select",
                                     "referenceId": "currencies2",
@@ -116,7 +116,7 @@
                             "description": "Ввод суммы и валюты для перевода денежки",
                             "fields": [
                                 {
-                                    "id": "amount",
+                                    "id": "amount_3",
                                     "value": "5000",
                                     "style": "noicon_with_underline",
                                     "type": "text",
@@ -136,7 +136,7 @@
                                     ]
                                 },
                                 {
-                                    "id": "currency",
+                                    "id": "currency_3",
                                     "value": "RUB",
                                     "type": "select",
                                     "referenceId": "currencies3",
@@ -157,7 +157,7 @@
                             "description": "Ввод суммы и валюты для перевода денежки",
                             "fields": [
                                 {
-                                    "id": "amount",
+                                    "id": "amount_4",
                                     "value": "5000",
                                     "style": "noicon_with_underline",
                                     "type": "text",
@@ -177,7 +177,7 @@
                                     ]
                                 },
                                 {
-                                    "id": "currency",
+                                    "id": "currency_4",
                                     "value": "RUB",
                                     "type": "select",
                                     "referenceId": "currencies4",
