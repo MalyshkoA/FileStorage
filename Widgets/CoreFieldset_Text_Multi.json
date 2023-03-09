@@ -27,13 +27,13 @@
                     "title": "Заголовок виджета",
                     "description": "Описание виджета",
                     "fields": [{
-                        "id": "fieldSet:string",
+                        "id": "fieldSet_1",
                         "type": "text",
                         "format": "multiline",
                         "readonly": false,
                         "title": "Мультилайн без иконки и описания"
                     }, {
-                        "id": "fieldSet:string",
+                        "id": "fieldSet_2",
                         "type": "text",
                         "format": "multiline",
                         "readonly": false,
@@ -42,7 +42,7 @@
                         "value": ""
 
                     }, {
-                        "id": "fieldSet:string",
+                        "id": "fieldSet_3",
                         "type": "text",
                         "format": "multiline",
                         "readonly": false,
