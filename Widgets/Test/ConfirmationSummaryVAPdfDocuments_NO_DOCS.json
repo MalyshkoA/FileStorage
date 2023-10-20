@@ -1,0 +1,215 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+         "card":{
+            "type":"workflow",
+            "payload":{
+               "success":true,
+               "body":{
+                  "result":"SUCCESS",
+                  "pid":"791cf2e3-6e60-11ee-a203-1b4aec829ea1",
+                  "flow":"confirmClientIb",
+                  "state":"confirmButtonState",
+                  "output":{
+                     "references":{
+                        "insuredCards":{
+                           "properties":{
+                              "title":"Кошелёк"
+                           },
+                           "items":[
+                              {
+                                 "title":"•••• 3113 Visa Classic 84 855 096,51 ₽",
+                                 "value":"1000001001392401",
+                                 "properties":{
+                                    "paymentSystem":"visa",
+                                    "isCredit":false,
+                                    "maskedNumber":"•••• 3113",
+                                    "balance":"8.485509651E7",
+                                    "name":"Visa Classic",
+                                    "currency":"RUB",
+                                    "type":"card"
+                                 }
+                              }
+                           ]
+                        },
+                        "documentsForConfirmation":{},
+                     "screens":[
+                        {
+                           "type":"DSNScreen",
+                           "properties":{
+                              "eventForAnalytic":"LifeMortgageIns:confirm"
+                           },
+                           "title":"Подтверждение",
+                           "description":"",
+                           "header":[
+                              
+                           ],
+                           "footer":[
+                              {
+                                 "type":"ConfirmationVASummaryPdfDocuments",
+                                 "properties":{
+                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю все документы",
+                                    "operationName":"Ипотечное страхование жизни",
+                                    "channelName":"MOB_BANK",
+                                    "secondStateTitle":"Документы по операции"
+                                 },
+                                 "title":"Ознакомление с документами",
+                                 "description":"Подтверждая, вы соглашаетесь с документами",
+                                 "fields":[
+                                    {
+                                       "id":"agreement",
+                                       "value":"",
+                                       "type":"text",
+                                       "title":"Я соглашаюсь с условиями и подписываю все документы"
+                                    },
+                                    {
+                                       "id":"ed83d02d5846bb453797f642a59af87f45",
+                                       "title":"Декларация и согласие страхователя",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"ed83d02d5846bb453797f642a59af87f45",
+                                       "readonly":true,
+                                       "validators":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "id":"ed7aa16e5ffe2e473bbacdaa5e95e2c9b9",
+                                       "title":"Ключевой информационный документ",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"ed7aa16e5ffe2e473bbacdaa5e95e2c9b9",
+                                       "readonly":true,
+                                       "validators":[
+                                          
+                                       ]
+                                    }
+                                 ],
+                                 "events":[
+                                    {
+                                       "cmd":"EVENT",
+                                       "name":"next",
+                                       "type":"next",
+                                       "title":"Согласиться и подтвердить"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "widgets":[
+                              {
+                                 "type":"CoreCell",
+                                 "fields":[
+                                    {
+                                       "id":"insurance:cost",
+                                       "type":"text",
+                                       "title":"Стоимость в год",
+                                       "style":"ic_36_coin",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"7 153,44 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "fields":[
+                                    {
+                                       "id":"insurance:sum",
+                                       "type":"text",
+                                       "title":"Страховая сумма",
+                                       "style":"ic_36_shield_ruble",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"912 428,73 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "fields":[
+                                    {
+                                       "id":"police:start:date",
+                                       "type":"text",
+                                       "title":"Полис начнёт действовать",
+                                       "style":"ic_36_calendar_checkmark",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"20 октября 2023 года"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "fields":[
+                                    {
+                                       "id":"inscompany",
+                                       "type":"text",
+                                       "title":"Страховая компания",
+                                       "style":"ic_36_shield",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"ООО СК «Сбербанк страхование жизни»"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreResource",
+                                 "fields":[
+                                    {
+                                       "id":"insurer:cards",
+                                       "type":"select",
+                                       "referenceId":"insuredCards",
+                                       "value":"1000001001392401",
+                                       "title":"Счёт списания",
+                                       "style":"noIcon",
+                                       "readonly":true,
+                                       "masked":false
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  "history":[
+                     {
+                        "id":"854d1090-6e60-11ee-ae03-f501db047236",
+                        "flow":"confirmClientIb",
+                        "state":"confirmButtonState",
+                        "title":"",
+                        "status":"ACTIVE",
+                        "flowId":3
+                     },
+                     {
+                        "id":"854ac69e-6e60-11ee-ae03-e74e71d4d040",
+                        "flow":"confirmClientIb",
+                        "state":"rollback",
+                        "title":"Переход",
+                        "value":"",
+                        "status":"ACTIVE",
+                        "flowId":3
+                     },
+                     {
+                        "id":"7fc708ce-6e60-11ee-a203-a34d83185bf3",
+                        "flow":"saleSmartAppMortgageIns",
+                        "state":"screen-paymentInfo",
+                        "title":"Параметры оплаты",
+                        "status":"ACTIVE",
+                        "flowId":1
+                     },
+                     {
+                        "id":"79dd0e9e-6e60-11ee-a203-35d0de1a2522",
+                        "flow":"saleSmartAppMortgageIns",
+                        "state":"screen-info",
+                        "title":"Параметры страховки",
+                        "status":"ACTIVE",
+                        "flowId":1
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   ]
+}
