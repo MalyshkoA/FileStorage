@@ -6,9 +6,6 @@
             "type":"workflow",
             "payload":{
                "success":true,
-               "messages":null,
-               "error":null,
-               "error_status":null,
                "body":{
                   "result":"SUCCESS",
                   "pid":"f8d235d1-6e7c-11ee-9034-a929f5682498",
@@ -196,7 +193,6 @@
                            ]
                         },
                         "documentsForConfirmation":{
-                           
                         }
                      }
                   },
