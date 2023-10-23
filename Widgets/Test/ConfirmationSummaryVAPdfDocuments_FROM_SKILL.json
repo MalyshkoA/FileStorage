@@ -136,45 +136,7 @@
                            ]
                         }
                      }
-                  },
-                  "history":[
-                     {
-                        "id":"04e09b15-6e7d-11ee-a12d-d75d3c767370",
-                        "flow":"confirmClientIb",
-                        "state":"confirmButtonState",
-                        "title":"",
-                        "value":null,
-                        "status":"ACTIVE",
-                        "flowId":"3"
-                     },
-                     {
-                        "id":"04df3b83-6e7d-11ee-a12d-8de9132d1ff2",
-                        "flow":"confirmClientIb",
-                        "state":"rollback",
-                        "title":"Переход",
-                        "value":"",
-                        "status":"ACTIVE",
-                        "flowId":"3"
-                     },
-                     {
-                        "id":"01ace75a-6e7d-11ee-9034-f1b66b86d7a1",
-                        "flow":"saleSmartAppMortgageIns",
-                        "state":"screen-paymentInfo",
-                        "title":"Параметры оплаты",
-                        "value":null,
-                        "status":"ACTIVE",
-                        "flowId":"1"
-                     },
-                     {
-                        "id":"fa4e759b-6e7c-11ee-9034-774e1a72a863",
-                        "flow":"saleSmartAppMortgageIns",
-                        "state":"screen-info",
-                        "title":"Параметры страховки",
-                        "value":null,
-                        "status":"ACTIVE",
-                        "flowId":"1"
-                     }
-                  ]
+                  }
                }
             },
             "event_to_actions":{
