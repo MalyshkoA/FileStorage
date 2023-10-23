@@ -6,6 +6,9 @@
             "type":"workflow",
             "payload":{
                "success":true,
+               "messages":null,
+               "error":null,
+               "error_status":null,
                "body":{
                   "result":"SUCCESS",
                   "pid":"f8d235d1-6e7c-11ee-9034-a929f5682498",
@@ -13,6 +16,9 @@
                   "state":"confirmButtonState",
                   "url":null,
                   "output":{
+                     "document":{
+                        
+                     },
                      "screens":[
                         {
                            "properties":{
@@ -80,13 +86,15 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
+                                 "properties":{
+                                    "icon":"ic_36_coin"
+                                 },
                                  "fields":[
                                     {
                                        "id":"insurance:cost",
                                        "type":"text",
                                        "title":"Стоимость в год",
                                        "readonly":true,
-                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"7 153,44 ₽"
                                     }
@@ -96,13 +104,15 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
+                                 "properties":{
+                                    "icon":"ic_36_shield_ruble"
+                                 },
                                  "fields":[
                                     {
                                        "id":"insurance:sum",
                                        "type":"text",
                                        "title":"Страховая сумма",
                                        "readonly":true,
-                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"912 428,73 ₽"
                                     }
@@ -112,13 +122,15 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
+                                 "properties":{
+                                    "icon":"ic_36_calendar_checkmark"
+                                 },
                                  "fields":[
                                     {
                                        "id":"police:start:date",
                                        "type":"text",
                                        "title":"Полис начнёт действовать",
                                        "readonly":true,
-                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"20 октября 2023 года"
                                     }
@@ -128,12 +140,14 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
+                                 "properties":{
+                                    "icon":"ic_36_shield"
+                                 },
                                  "fields":[
                                     {
                                        "id":"inscompany",
                                        "type":"text",
                                        "title":"Страховая компания",
-                                       "style":"ic_36_coin",
                                        "readonly":true,
                                        "masked":false,
                                        "description":"ООО СК «Сбербанк страхование жизни»"
@@ -160,7 +174,19 @@
                            ]
                         }
                      ],
+                     "events":[
+                        
+                     ],
                      "references":{
+                        "insuranceStartDate":{
+                           
+                        },
+                        "insuranceSum":{
+                           
+                        },
+                        "withdrawAccounts":{
+                           
+                        },
                         "insuredCards":{
                            "properties":{
                               "title":"Кошелёк"
@@ -210,7 +236,7 @@
                         "title":"",
                         "value":null,
                         "status":"ACTIVE",
-                        "flowId":3
+                        "flowId":"3"
                      },
                      {
                         "id":"04df3b83-6e7d-11ee-a12d-8de9132d1ff2",
@@ -219,7 +245,7 @@
                         "title":"Переход",
                         "value":"",
                         "status":"ACTIVE",
-                        "flowId":3
+                        "flowId":"3"
                      },
                      {
                         "id":"01ace75a-6e7d-11ee-9034-f1b66b86d7a1",
@@ -228,7 +254,7 @@
                         "title":"Параметры оплаты",
                         "value":null,
                         "status":"ACTIVE",
-                        "flowId":1
+                        "flowId":"1"
                      },
                      {
                         "id":"fa4e759b-6e7c-11ee-9034-774e1a72a863",
@@ -237,7 +263,34 @@
                         "title":"Параметры страховки",
                         "value":null,
                         "status":"ACTIVE",
-                        "flowId":1
+                        "flowId":"1"
+                     }
+                  ]
+               }
+            },
+            "event_to_actions":{
+               "next":{
+                  "actions":[
+                     {
+                        "type":"text",
+                        "text":"Подтверждаю и оплачиваю",
+                        "should_send_to_backend":false
+                     },
+                     {
+                        "type":"server_action",
+                        "message_name":"RUN_APP",
+                        "server_action":{
+                           "action_id":"run_app",
+                           "app_info":{
+                              "systemName":"SmartApp_UB"
+                           },
+                           "parameters":{
+                              "scenario":"W0318.Life_mortgage_insurance_prolongation",
+                              "node":"W0318.05.06",
+                              "button_text":"Подтверждаю и оплачиваю",
+                              "node_from":"W0318.05.05"
+                           }
+                        }
                      }
                   ]
                }
