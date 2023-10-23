@@ -8,10 +8,162 @@
                "success":true,
                "body":{
                   "result":"SUCCESS",
-                  "pid":"791cf2e3-6e60-11ee-a203-1b4aec829ea1",
+                  "pid":"f8d235d1-6e7c-11ee-9034-a929f5682498",
                   "flow":"confirmClientIb",
                   "state":"confirmButtonState",
+                  "url":null,
                   "output":{
+                     "screens":[
+                        {
+                           "properties":{
+                              "eventForAnalytic":"LifeMortgageIns:confirm"
+                           },
+                           "type":"DSNScreen",
+                           "title":"Подтверждение",
+                           "description":"",
+                           "header":[
+                              
+                           ],
+                           "footer":[
+                              {
+                                 "type":"ConfirmationVASummaryPdfDocuments",
+                                 "properties":{
+                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю <a>все документы</a>",
+                                    "operationName":"Ипотечное страхование жизни",
+                                    "channelName":"MOB_BANK",
+                                    "secondStateTitle":"Документы по операции"
+                                 },
+                                 "title":"Ознакомление с <a>документами</a>",
+                                 "description":"Подтверждая, вы соглашаетесь с документами",
+                                 "fields":[
+                                    {
+                                       "id":"agreement",
+                                       "value":"",
+                                       "type":"text",
+                                       "title":"Я соглашаюсь с условиями и подписываю <a>все документы</a>"
+                                    },
+                                    {
+                                       "id":"eda98e3e240b974083969d154f03bb1fde",
+                                       "title":"Декларация и согласие страхователя",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"eda98e3e240b974083969d154f03bb1fde",
+                                       "readonly":true,
+                                       "validators":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "id":"edb0e9305eef6c402e9d6585c160bf7dd0",
+                                       "title":"Ключевой информационный документ",
+                                       "type":"text",
+                                       "value":"",
+                                       "referenceId":"edb0e9305eef6c402e9d6585c160bf7dd0",
+                                       "readonly":true,
+                                       "validators":[
+                                          
+                                       ]
+                                    }
+                                 ],
+                                 "events":[
+                                    {
+                                       "cmd":"EVENT",
+                                       "name":"next",
+                                       "type":"next",
+                                       "title":"Согласиться и подтвердить"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "widgets":[
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurance:cost",
+                                       "type":"text",
+                                       "title":"Стоимость в год",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"7 153,44 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurance:sum",
+                                       "type":"text",
+                                       "title":"Страховая сумма",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"912 428,73 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"police:start:date",
+                                       "type":"text",
+                                       "title":"Полис начнёт действовать",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"20 октября 2023 года"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"inscompany",
+                                       "type":"text",
+                                       "title":"Страховая компания",
+                                       "style":"ic_36_coin",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"ООО СК «Сбербанк страхование жизни»"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreResource",
+                                 "title":null,
+                                 "description":null,
+                                 "properties":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurer:cards",
+                                       "type":"select",
+                                       "referenceId":"insuredCards",
+                                       "value":"1000001001392401",
+                                       "title":"Счёт списания",
+                                       "style":"noIcon",
+                                       "readonly":true,
+                                       "masked":false
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "events":[
+                        
+                     ],
                      "references":{
                         "insuredCards":{
                            "properties":{
@@ -22,8 +174,6 @@
                                  "title":"•••• 3113 Visa Classic 84 855 096,51 ₽",
                                  "value":"1000001001392401",
                                  "properties":{
-                                    "paymentSystem":"visa",
-                                    "isCredit":false,
                                     "maskedNumber":"•••• 3113",
                                     "balance":"8.485509651E7",
                                     "name":"Visa Classic",
@@ -54,178 +204,44 @@
                               }
                            ]
                         }
-                     },
-                     "screens":[
-                        {
-                           "type":"DSNScreen",
-                           "properties":{
-                              "eventForAnalytic":"LifeMortgageIns:confirm"
-                           },
-                           "title":"Подтверждение",
-                           "description":"",
-                           "header":[
-                              
-                           ],
-                           "footer":[
-                              {
-                                 "type":"ConfirmationVASummaryPdfDocuments",
-                                 "properties":{
-                                    "titleWithLink":"Я соглашаюсь с условиями и подписываю все документы",
-                                    "operationName":"Ипотечное страхование жизни",
-                                    "channelName":"MOB_BANK",
-                                    "secondStateTitle":"Документы по операции"
-                                 },
-                                 "title":"Ознакомление с документами",
-                                 "description":"Подтверждая, вы соглашаетесь с документами",
-                                 "fields":[
-                                    {
-                                       "id":"agreement",
-                                       "value":"",
-                                       "type":"text",
-                                       "title":"Я соглашаюсь с условиями и подписываю все документы"
-                                    },
-                                    {
-                                       "id":"ed83d02d5846bb453797f642a59af87f45",
-                                       "title":"Декларация и согласие страхователя",
-                                       "type":"text",
-                                       "value":"",
-                                       "referenceId":"ed83d02d5846bb453797f642a59af87f45",
-                                       "readonly":true,
-                                       "validators":[
-                                          
-                                       ]
-                                    },
-                                    {
-                                       "id":"ed7aa16e5ffe2e473bbacdaa5e95e2c9b9",
-                                       "title":"Ключевой информационный документ",
-                                       "type":"text",
-                                       "value":"",
-                                       "referenceId":"ed7aa16e5ffe2e473bbacdaa5e95e2c9b9",
-                                       "readonly":true,
-                                       "validators":[
-                                          
-                                       ]
-                                    }
-                                 ],
-                                 "events":[
-                                    {
-                                       "cmd":"EVENT",
-                                       "name":"next",
-                                       "type":"next",
-                                       "title":"Согласиться и подтвердить"
-                                    }
-                                 ]
-                              }
-                           ],
-                           "widgets":[
-                              {
-                                 "type":"CoreCell",
-                                 "fields":[
-                                    {
-                                       "id":"insurance:cost",
-                                       "type":"text",
-                                       "title":"Стоимость в год",
-                                       "style":"ic_36_coin",
-                                       "readonly":true,
-                                       "masked":false,
-                                       "description":"7 153,44 ₽"
-                                    }
-                                 ]
-                              },
-                              {
-                                 "type":"CoreCell",
-                                 "fields":[
-                                    {
-                                       "id":"insurance:sum",
-                                       "type":"text",
-                                       "title":"Страховая сумма",
-                                       "style":"ic_36_shield_ruble",
-                                       "readonly":true,
-                                       "masked":false,
-                                       "description":"912 428,73 ₽"
-                                    }
-                                 ]
-                              },
-                              {
-                                 "type":"CoreCell",
-                                 "fields":[
-                                    {
-                                       "id":"police:start:date",
-                                       "type":"text",
-                                       "title":"Полис начнёт действовать",
-                                       "style":"ic_36_calendar_checkmark",
-                                       "readonly":true,
-                                       "masked":false,
-                                       "description":"20 октября 2023 года"
-                                    }
-                                 ]
-                              },
-                              {
-                                 "type":"CoreCell",
-                                 "fields":[
-                                    {
-                                       "id":"inscompany",
-                                       "type":"text",
-                                       "title":"Страховая компания",
-                                       "style":"ic_36_shield",
-                                       "readonly":true,
-                                       "masked":false,
-                                       "description":"ООО СК «Сбербанк страхование жизни»"
-                                    }
-                                 ]
-                              },
-                              {
-                                 "type":"CoreResource",
-                                 "fields":[
-                                    {
-                                       "id":"insurer:cards",
-                                       "type":"select",
-                                       "referenceId":"insuredCards",
-                                       "value":"1000001001392401",
-                                       "title":"Счёт списания",
-                                       "style":"noIcon",
-                                       "readonly":true,
-                                       "masked":false
-                                    }
-                                 ]
-                              }
-                           ]
-                        }
-                     ]
+                     }
                   },
                   "history":[
                      {
-                        "id":"854d1090-6e60-11ee-ae03-f501db047236",
+                        "id":"04e09b15-6e7d-11ee-a12d-d75d3c767370",
                         "flow":"confirmClientIb",
                         "state":"confirmButtonState",
                         "title":"",
+                        "value":null,
                         "status":"ACTIVE",
-                        "flowId":3
+                        "flowId":"3"
                      },
                      {
-                        "id":"854ac69e-6e60-11ee-ae03-e74e71d4d040",
+                        "id":"04df3b83-6e7d-11ee-a12d-8de9132d1ff2",
                         "flow":"confirmClientIb",
                         "state":"rollback",
                         "title":"Переход",
                         "value":"",
                         "status":"ACTIVE",
-                        "flowId":3
+                        "flowId":"3"
                      },
                      {
-                        "id":"7fc708ce-6e60-11ee-a203-a34d83185bf3",
+                        "id":"01ace75a-6e7d-11ee-9034-f1b66b86d7a1",
                         "flow":"saleSmartAppMortgageIns",
                         "state":"screen-paymentInfo",
                         "title":"Параметры оплаты",
+                        "value":null,
                         "status":"ACTIVE",
-                        "flowId":1
+                        "flowId":"1"
                      },
                      {
-                        "id":"79dd0e9e-6e60-11ee-a203-35d0de1a2522",
+                        "id":"fa4e759b-6e7c-11ee-9034-774e1a72a863",
                         "flow":"saleSmartAppMortgageIns",
                         "state":"screen-info",
                         "title":"Параметры страховки",
+                        "value":null,
                         "status":"ACTIVE",
-                        "flowId":1
+                        "flowId":"1"
                      }
                   ]
                }
