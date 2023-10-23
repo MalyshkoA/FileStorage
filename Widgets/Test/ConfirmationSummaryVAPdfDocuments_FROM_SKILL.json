@@ -16,9 +16,6 @@
                   "state":"confirmButtonState",
                   "url":null,
                   "output":{
-                     "document":{
-                        
-                     },
                      "screens":[
                         {
                            "properties":{
@@ -207,25 +204,6 @@
                            ]
                         },
                         "documentsForConfirmation":{
-                           "properties":{
-                              
-                           },
-                           "items":[
-                              {
-                                 "title":"html",
-                                 "value":"/bh-confirmation/v3/api/documentsHtml?uuid=bfe1adf1-9103-444d-8feb-3285f99a1148&documentId=ed83d02d5846bb453797f642a59af87f45",
-                                 "properties":{
-                                    "title":"Декларация и согласие страхователя"
-                                 }
-                              },
-                              {
-                                 "title":"html",
-                                 "value":"/bh-confirmation/v3/api/documentsHtml?uuid=bfe1adf1-9103-444d-8feb-3285f99a1148&documentId=ed7aa16e5ffe2e473bbacdaa5e95e2c9b9",
-                                 "properties":{
-                                    "title":"Ключевой информационный документ"
-                                 }
-                              }
-                           ]
                         }
                      }
                   },
