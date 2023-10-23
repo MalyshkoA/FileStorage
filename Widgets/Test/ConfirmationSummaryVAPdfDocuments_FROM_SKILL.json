@@ -74,6 +74,89 @@
                                     }
                                  ]
                               }
+                           ],
+                           "widgets":[
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurance:cost",
+                                       "type":"text",
+                                       "title":"Стоимость в год",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"7 153,44 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurance:sum",
+                                       "type":"text",
+                                       "title":"Страховая сумма",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"912 428,73 ₽"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"police:start:date",
+                                       "type":"text",
+                                       "title":"Полис начнёт действовать",
+                                       "readonly":true,
+                                       "style":"ic_36_coin",
+                                       "masked":false,
+                                       "description":"20 октября 2023 года"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreCell",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"inscompany",
+                                       "type":"text",
+                                       "title":"Страховая компания",
+                                       "style":"ic_36_coin",
+                                       "readonly":true,
+                                       "masked":false,
+                                       "description":"ООО СК «Сбербанк страхование жизни»"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreResource",
+                                 "title":null,
+                                 "description":null,
+                                 "fields":[
+                                    {
+                                       "id":"insurer:cards",
+                                       "type":"select",
+                                       "referenceId":"insuredCards",
+                                       "value":"1000001001392401",
+                                       "title":"Счёт списания",
+                                       "style":"noIcon",
+                                       "readonly":true,
+                                       "masked":false
+                                    }
+                                 ]
+                              }
                            ]
                         }
                      ],
