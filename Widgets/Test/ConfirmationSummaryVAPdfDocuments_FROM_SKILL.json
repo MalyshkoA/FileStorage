@@ -165,15 +165,6 @@
                         
                      ],
                      "references":{
-                        "insuranceStartDate":{
-                           
-                        },
-                        "insuranceSum":{
-                           
-                        },
-                        "withdrawAccounts":{
-                           
-                        },
                         "insuredCards":{
                            "properties":{
                               "title":"Кошелёк"
