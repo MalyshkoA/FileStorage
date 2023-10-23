@@ -83,15 +83,13 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
-                                 "properties":{
-                                    "icon":"ic_36_coin"
-                                 },
                                  "fields":[
                                     {
                                        "id":"insurance:cost",
                                        "type":"text",
                                        "title":"Стоимость в год",
                                        "readonly":true,
+                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"7 153,44 ₽"
                                     }
@@ -101,15 +99,13 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
-                                 "properties":{
-                                    "icon":"ic_36_shield_ruble"
-                                 },
                                  "fields":[
                                     {
                                        "id":"insurance:sum",
                                        "type":"text",
                                        "title":"Страховая сумма",
                                        "readonly":true,
+                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"912 428,73 ₽"
                                     }
@@ -119,15 +115,13 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
-                                 "properties":{
-                                    "icon":"ic_36_calendar_checkmark"
-                                 },
                                  "fields":[
                                     {
                                        "id":"police:start:date",
                                        "type":"text",
                                        "title":"Полис начнёт действовать",
                                        "readonly":true,
+                                       "style":"ic_36_coin",
                                        "masked":false,
                                        "description":"20 октября 2023 года"
                                     }
@@ -137,14 +131,12 @@
                                  "type":"CoreCell",
                                  "title":null,
                                  "description":null,
-                                 "properties":{
-                                    "icon":"ic_36_shield"
-                                 },
                                  "fields":[
                                     {
                                        "id":"inscompany",
                                        "type":"text",
                                        "title":"Страховая компания",
+                                       "style":"ic_36_coin",
                                        "readonly":true,
                                        "masked":false,
                                        "description":"ООО СК «Сбербанк страхование жизни»"
@@ -204,6 +196,7 @@
                            ]
                         },
                         "documentsForConfirmation":{
+                           
                         }
                      }
                   },
