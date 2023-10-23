@@ -33,7 +33,8 @@
                               }
                            ]
                         },
-                        "documentsForConfirmation":{},
+                        "documentsForConfirmation":{}
+                     },
                      "screens":[
                         {
                            "type":"DSNScreen",
