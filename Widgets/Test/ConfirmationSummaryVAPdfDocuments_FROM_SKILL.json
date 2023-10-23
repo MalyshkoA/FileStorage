@@ -268,33 +268,6 @@
                      }
                   ]
                }
-            },
-            "event_to_actions":{
-               "next":{
-                  "actions":[
-                     {
-                        "type":"text",
-                        "text":"Подтверждаю и оплачиваю",
-                        "should_send_to_backend":false
-                     },
-                     {
-                        "type":"server_action",
-                        "message_name":"RUN_APP",
-                        "server_action":{
-                           "action_id":"run_app",
-                           "app_info":{
-                              "systemName":"SmartApp_UB"
-                           },
-                           "parameters":{
-                              "scenario":"W0318.Life_mortgage_insurance_prolongation",
-                              "node":"W0318.05.06",
-                              "button_text":"Подтверждаю и оплачиваю",
-                              "node_from":"W0318.05.05"
-                           }
-                        }
-                     }
-                  ]
-               }
             }
          }
       }
