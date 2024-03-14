@@ -45,7 +45,7 @@
                                     "validators": [
                                         {
                                             "type": "required",
-                                            "value": "true",
+                                            "value": true,
                                             "message": "Вы не согласились с лицензионным соглашением"
                                         }
                                     ]
